@@ -1,0 +1,252 @@
+html{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.logo{
+   width: 900px;
+   height: 150px;
+   padding-left: 275px;
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+}
+.banner{
+    width: 1000px;
+}
+.carousel-inner{
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.carousel-control-prev{
+    margin-left: 80px;
+}
+
+.carousel-control-next{
+  margin-left: 200px;
+}
+
+.nav{
+    text-align: center;
+    font-family: "Microsoft YaHei Bold";
+    margin-left: 80px;
+    margin-top: 8px;
+    width: 1000px;
+    position: relative;
+    
+    
+}
+.nav-list{
+   
+    border-radius: 20px;
+   background-color:#f0ebe4;
+    display: flex;
+    margin: 0px;
+    padding: 0;
+
+    
+}
+
+.nav-list-item{
+    width: 166px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Impact, fantasy;
+    font-weight:bold;
+    list-style: none;
+    text-align: center;
+
+
+   }
+   .nav-list-item:hover .nav-sublist{
+       display: block;
+      
+       
+   }
+  
+   
+.nav-list-item-link {
+       display: block;
+       color: #c75431;
+       font-size: 20px;
+       text-decoration: none;
+       padding: 10px 0px;
+       border-bottom: none;
+   }
+
+   .nav-list-item-link:hover{
+    color: #3c026b;
+    font-size: 25px;
+    
+   }
+  .nav-list-item:hover{
+   background-color: rgb(255, 226, 202);
+   color: rgba(29, 3, 39, 0.753);
+   box-shadow: 0 3px 0px 0;
+   border-radius: 20px;
+  }
+
+.super{
+    width: 1000px;
+    padding-left: 80px;
+}
+.pg1bd2{
+    padding-left: 80px;
+   
+
+}
+.pg1bd3{
+    padding-left: 80px;
+    display: flex;
+
+}
+.yay{
+    display: flex;
+    padding-top: 50px;
+    font-family: Impact,Bold;
+}
+.soo{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 250px;
+    font-size: 50px;
+    color: rgb(9, 95, 74);
+}
+.bag{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 450px;
+    font-size: 50px;
+    color: rgb(17, 40, 168);
+}
+.aya{
+    display: flex;
+    font-family: Impact,Bold;
+}
+.chi{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 100px;
+    padding-left: 225px;
+    font-size: 50px;
+    color: rgb(232, 235, 81);
+}
+.chic{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 400px;
+    font-size: 50px;
+    color: rgb(133, 16, 16);
+}
+.pg1bd4{
+    padding-left: 80px;
+    display: flex;
+}
+.pg1bd2 h2{
+    text-align: center;
+    font-size: 50px;
+}
+.sofa{
+    width: 400px;
+    height: 500px;
+}
+
+.sofa:hover{
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(1px, 1px) rotate(-1deg); }
+  20% { transform: translate(1px, 1px) rotate(1deg); }
+  30% { transform: translate(2px, 1px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(1px, -1px) rotate(-1deg); }
+  60% { transform: translate(1px, 1px) rotate(0deg); }
+  70% { transform: translate(2px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, -2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.bed{
+    margin-left: 150px;
+    width: 400px;
+    height: 500px;
+}
+
+.bed:hover{
+    animation: shake 0.5s;
+}
+.mini{
+    width: 400px;
+    height: 500px;
+}
+.mini:hover{
+    animation: shake 0.5s;
+}
+.chair{
+    
+    width: 400px;
+    height: 500px;
+}
+
+.chair:hover{
+    animation: shake 0.5s;
+}
+.dian{
+    margin-left: 150px;
+    width: 500px;
+    height: 500px;
+}
+.dian:hover{
+    animation: shake 0.5s;
+}
+.ad{
+    width: 1000px;
+    margin-left: 80px;
+}
+
+.happy{
+    padding-top:100px;
+}
+
+.line{
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 1000px;
+    padding-top: 1px;
+    background-color: gray;
+    height: 2px;
+}
+.word{
+    margin-top: 20px;
+    width: 1000px;
+    padding-left: 80px;
+    
+}
+.word h2{
+    font-family: "Microsoft YaHei Bold";
+    font-weight:bold;
+    color: rgb(175, 97, 24);
+    text-align: center;
+    font-size: 25px;
+}
+.li{
+    font-family: "Microsoft YaHei Bold";
+    font-weight:bold;
+    font-size: 12px;
+}
+footer{
+    text-align: center;
+   
+}
+footer p{
+    margin-top: 20px;
+    margin-left:-240px;
+    font-weight:bold;
+    color: rgb(175, 97, 24);
+
+}

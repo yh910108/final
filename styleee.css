@@ -1,0 +1,149 @@
+html{
+    width: 1200px;
+   
+}
+.all{
+    padding-left: 100px;
+}
+.p1{
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+.test{
+    width: 500px;
+}
+
+.nav-list{
+   width: 1000px;
+    border-radius: 20px;
+   background-color:#f0ebe4;
+    display: flex;
+    margin-top: 20px;
+    padding: 0;
+    
+
+    
+}
+
+.nav-list-item{
+    width: 166px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Impact, fantasy;
+    font-weight:bold;
+    list-style: none;
+    text-align: center;
+
+
+   }
+   .nav-list-item:hover .nav-sublist{
+       display: block;
+      
+       
+   }
+  
+   
+   .nav-list-item-link {
+    display: block;
+    color: #c75431;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border-bottom: none;
+}
+
+.nav-list-item-link:hover{
+ color: #3c026b;
+ font-size: 25px;
+ 
+}
+.nav-list-item:hover{
+background-color: rgb(255, 226, 202);
+color: rgba(29, 3, 39, 0.753);
+box-shadow: 0 3px 0px 0;
+border-radius: 20px;
+}
+
+  .word{
+    
+    text-align: center;
+    font-size:20px;
+    color: #4b1f17;
+}
+
+
+
+.pp1{
+    width: 1000px;
+}
+.pp2{
+    padding-top: 20px;
+    width: 500px
+}
+.pp3{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 500px
+}
+.pp4{
+    padding-top: 20px;
+    width: 500px
+}
+
+.pp5{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 500px
+}
+.pp6{
+    padding-top: 20px;
+    width: 500px
+}
+.pp7{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 500px
+}
+.pp8{
+    padding-top: 20px;
+    width: 500px
+}
+.pp9{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 500px
+}
+.pp10{
+    padding-top: 20px;
+    width: 500px
+}
+.pp11{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 500px
+}
+.pp12{
+    padding-top: 20px;
+    width: 1000px;
+}
+.line{
+                             
+    margin-top: 50px;
+    width: 1000px;
+    padding-top: 1px;
+    background-color: gray;
+    height: 2px;
+}
+footer{
+    text-align: center;
+   
+}
+footer p{
+    
+    font-weight:bold;
+    color: rgb(175, 97, 24);
+
+}
